@@ -7,7 +7,6 @@ class CommentList extends Component {
       return <li key={comment}>{comment}</li>;
     });
   }
-  
 
   render() {
     return (
